@@ -2,10 +2,10 @@
 public class Hello {
 
 	public static void main(String[] args) {
-		printMessage();
+		printMessage("Hello, Git Testing");
 	}
 
-	private static void printMessage() {
-		System.out.println("Hi, Git Testing");
+	private static void printMessage(String printMessage) {
+		System.out.println(printMessage);
 	}
 }
